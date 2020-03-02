@@ -1,0 +1,62 @@
+.myRidesBody{
+    width : 80%;
+    display: flex;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.bookedRides{
+    margin-left : 5%;
+    width : 35%;
+}
+
+.offeredRides{
+    margin-left : 10%;
+    width : 35%;
+}
+
+.bookedRidesHeading{
+    background-color: rgb(147,25,255);
+    width : 215px;
+    min-width : 100px;
+    font-size: 20px;
+    color : white;
+    text-align: center;
+    border : none;
+    outline: none;
+    margin-bottom: 5%;
+    border-radius: 5px;
+    padding : 2% 1%;
+}
+
+.offeredRidesHeading{
+    background-color: rgb(255,172,25);
+    width : 215px;
+    min-width : 100px;
+    font-size: 20px;
+    color : white;
+    text-align: center;
+    border : none;
+    outline: none;
+    margin-bottom: 5%;
+    border-radius: 5px;
+    padding : 2% 1%;
+}
+
+.rideCard{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: inline-block;
+    width : 545px;
+    border-radius: 2%;
+    margin-right : 5%; 
+    margin-bottom: 3%;
+}
+
+.offeredRideCard{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: inline-block;
+    width : 545px;
+    border-radius: 2%;
+    margin-right : 5%; 
+    margin-bottom: 3%;
+    padding : 7% 2%;
+}

@@ -1,0 +1,147 @@
+.offerRideBody{
+    background-position : bottom;
+    background-size : 100% auto;
+    background-repeat: no-repeat;
+    height : 88%;
+    background-image: url("../images/bookRide.png");
+    margin : 0;
+    padding : 0;
+    display: flex;
+}
+
+.nextButton{
+    font-family: 'Open Sans',sans-serif;
+    color : rgb(147,25,255);
+    float : right;
+    margin-right : 5%;
+    border : none;
+    font-size : 20px;
+    font-weight: bolder;
+    background-color: white;
+    outline: none;
+}
+
+.emptyField{
+    margin-left : 7%;
+    border : 0;
+    border-bottom: 2px solid rgb(74,144,226);
+    width : 80%;
+    outline: none;
+    margin-bottom: 2%;
+    padding : 0;
+    font-size: 20px;
+}
+
+.addViaPointButton{
+    /* margin-top : -7%; */
+    margin-right: 5%;
+    float : right;
+    border : none;
+    font-family: 'Open Sans',sans-serif;
+    color : rgb(147,25,255);
+    font-weight: bold;
+    font-size : 30px;
+    outline : none;
+    background-color: white;
+}
+
+.filledField{
+    margin-left : 7%;
+    border : 0;
+    border-bottom: 2px solid rgb(212,212,212);
+    width : 80%;
+    outline: none;
+    margin-bottom: 2%;
+    padding : 0;
+    font-size: 20px;
+}
+
+.activeListElement{
+    background-color: rgb(147,25,255);
+}
+
+.addViaPoint{
+    border : none;
+    outline: none;
+    font-family: 'Open Sans',sans-serif;
+    color : rgb(147,25,255);
+    font-weight: bold;
+    font-size : 30px;
+    margin-left : -5%;
+    /* border-bottom: 2px solid rgb(74,144,226); */
+    background-color: white;
+}
+
+.inputField{
+    display: flex;
+}
+
+.newInputField{
+    display : flex;
+}
+
+.newInputField .emptyField{
+    margin-left : 7%;
+    border : 0;
+    border-bottom: 2px solid rgb(74,144,226);
+    width : 90%;
+    outline: none;
+    margin-bottom: 2%;
+    padding : 0;
+    font-size: 20px;
+}
+
+.newInputField .filledField{
+    margin-left : 7%;
+    border : 0;
+    border-bottom: 2px solid rgb(212,212,212);
+    width : 90%;
+    outline: none;
+    margin-bottom: 2%;
+    padding : 0;
+    font-size: 20px;
+}
+
+.availableSeats li{
+    list-style: none;
+    border-radius: 50%;
+    font-family: 'Open Sans',sans-serif;;
+    display: inline-flex;
+    margin : 0;
+    padding : 13px 18px;
+    color: rgb(161,161,161);
+    font-weight: bolder;
+    text-align: center;
+    cursor: pointer;
+    margin-right : 2%;
+    margin-bottom: 2%;
+    border: 1px solid rgb(161,161,161);
+}
+
+.selectedSeatCount{
+    background-color: rgb(118,83,252);
+    color : white !important;
+}
+
+.price{
+    font-size : 35px;
+    font-family: 'Open Sans',sans-serif;;
+    margin : 0;
+    margin-left:5%;
+    padding-left: 7%;
+    padding-top : 7%;
+    margin-bottom: 7%;
+}
+
+.rowLabel{
+    margin-top : 1%;
+    margin-left : 8%;
+    margin-bottom: 0;
+    padding-left: 7%;
+    color : rgb(161,161,161);
+    font-weight: 500;
+}
+
+.viaPointField{
+    width: 100%;
+}
