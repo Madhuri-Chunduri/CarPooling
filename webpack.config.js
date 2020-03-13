@@ -1,7 +1,18 @@
 const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+// var cors = require('cors')
 
 const port = process.env.PORT || 3007;
+var host = process.env.HOST || '0.0.0.0';
+
+// var cors_proxy = require('cors-anywhere');
+// cors_proxy.createServer({
+//     originWhitelist: [], // Allow all origins
+//     requireHeader: ['origin', 'x-requested-with'],
+//     removeHeaders: ['cookie', 'cookie2']
+// }).listen(port, host, function() {
+//     console.log('Running CORS Anywhere on ' + host + ':' + port);
+// });
 
 module.exports = {
  
@@ -15,7 +26,6 @@ module.exports = {
   devtool: 'inline-source-map',
   module: {
     rules: [
-
       {
         test: /\.tsx?$/,
         use: 'ts-loader',
@@ -44,14 +54,19 @@ module.exports = {
     host: 'localhost',
     port: port,
     historyApiFallback: true,
-    open: true
+    open: true,
+    headers: {
+      "Access-Control-Allow-Origin": "*",
+      // "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, PATCH, OPTIONS",
+      // "Access-Control-Allow-Headers": "X-Requested-With, content-type, Authorization"
+    }
   },
 
   plugins: [
     new webpack.HotModuleReplacementPlugin(),
     new HtmlWebpackPlugin({
       template: 'public/index.html',
-      styles : 'public/index.css',
+      // styles : 'public/index.css',
       favicon: 'public/car-pooling-icon2.png'
     })
   ],
