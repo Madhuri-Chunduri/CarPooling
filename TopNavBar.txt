@@ -1,0 +1,26 @@
+
+                                {/* <NavLink className="popUpButton" activeClassName = "activeListElement" to="/profile">
+                                    {/* <li key="profile" onClick={() => this.selectedAction("profile")}>
+                                        {/* className={this.state.selectedAction == "profile" ? "activeListElement" : ""}> */}
+                                        {/* <div>Profile</div>
+                                    </li> */} 
+                                    {/* Profile
+                                </NavLink> */}
+
+                                {/* <NavLink  className="popUpButton" activeClassName="activeListElement" to="/dashBoard">
+                                    {/* <li key="profile" onClick={() => this.selectedAction("dashBoard")}>
+                                        {/* className={this.state.selectedAction == "profile" ? "activeListElement" : ""}> */}
+                                        {/* <div>DashBoard</div>
+                                    </li> */} 
+                                    {/* Dashboard
+                                </NavLink> */}
+
+                                {/* <NavLink className="popUpButton" activeClassName="activeListElement" to="/myRides"> */}
+                                    {/* <li key="myRides" onClick={() => this.selectedAction("myRides")}>
+                                        {/* className={this.state.selectedAction == "myRides" ? "activeListElement" : ""} */}
+                                        {/* <div> My Rides </div>
+                                    </li> */}
+                                    {/* My Rides
+                                </NavLink> */}
+
+                                {/* <NavLink activeClassName="activeListElement" to="/login"> */}
